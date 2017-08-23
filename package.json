@@ -1,0 +1,27 @@
+{
+  "name": "gzip-stream",
+  "version": "0.0.1",
+  "description": "Transfrom stream to read a gzip file member by member in nodejs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "pending"
+  },
+  "keywords": [
+    "pending"
+  ],
+  "author": "Vikas Gautam <v33vikasgautam@gmail.com> (http://mytrikks.blogspot.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/graceful-fs": "^2.0.29",
+    "@types/request": "^2.0.2",
+    "graceful-fs": "^4.1.11",
+    "request": "^2.81.0",
+    "typescript": "^2.4.2"
+  }
+}
